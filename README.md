@@ -13,7 +13,7 @@ pip install pynumint
 ## Usage
 ```bash
 
-from pynumint import trapezoidal_rule, simpsons_rule, midpoint_rule, booles_rule, romberg_integration, gauss_legendre_quadrature, gauss_chebyshev_quadrature, gauss_laguerre_quadrature, gauss_hermite_quadrature, adaptive_simpsons_rule, monte_carlo_integration, double_integral, simpsons_rule_with_error
+from pynumint import trapezoidal_rule, simpsons_rule, midpoint_rule, booles_rule, romberg_integration, gauss_legendre_quadrature, gauss_chebyshev_quadrature, gauss_laguerre_quadrature, gauss_hermite_quadrature, adaptive_simpsons_rule, monte_carlo_integration, double_integral
 import numpy as np
 
 # Define your functions to be integrated
