@@ -14,7 +14,7 @@ pip install pynumint
 ## Usage
 ```bash
 
-from pynumint import trapezoidal_rule, simpsons_rule, midpoint_rule, booles_rule, romberg_integration, gauss_legendre_quadrature, gauss_chebyshev_quadrature, gauss_laguerre_quadrature, gauss_hermite_quadrature, adaptive_simpsons_rule, monte_carlo_integration, double_integral
+from pynumint import trapezoidal_rule, simpsons_rule, midpoint_rule, booles_rule, romberg_integration, gauss_legendre_quadrature, gauss_chebyshev_quadrature, gauss_laguerre_quadrature, gauss_hermite_quadrature, adaptive_simpsons_rule, monte_carlo_integration, double_integral, simpsons_rule_with_error
 import numpy as np
 
 # Define your functions to be integrated
@@ -109,6 +109,13 @@ result_double_integral = double_integral(f4, 0, 1, 0, 1)
 
 ```
 
+### [Simpson's rule with error](https://en.wikipedia.org/wiki/Simpson%27s_rule)
+```bash
+
+result_simpsons_error, error_estimate = simpsons_rule_with_error(f2, a, b, n)
+
+```
+
 ## Print results
 ```bash
 
@@ -125,6 +132,8 @@ print(f"Gauss-Hermite Quadrature: {result_gauss_hermite}")
 print(f"Adaptive Simpson's Rule: {result_adaptive_simpsons}")
 print(f"Monte Carlo Integration: {result_monte_carlo}")
 print(f"Double Integral: {result_double_integral}")
+print(f"Double Integral: {result_double_integral}")
+print(f"Simpson's Rule with Error Estimation: {result_simpsons_error} with an error estimate of {error_estimate}")
 
 ```
 
@@ -144,6 +153,7 @@ Gauss-Hermite Quadrature: 1.260069748687603
 Adaptive Simpson's Rule: 0.443113467730597
 Monte Carlo Integration: 0.7746479690195586
 Double Integral: 0.25507601265177027
+Simpson's Rule with Error Estimation: 1.8390715291786217 with an error estimate of 5.555553794065748e-06
 
 ```
 
