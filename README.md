@@ -42,73 +42,73 @@ n = 1000
 result_trapezoidal = trapezoidal_rule(f1, a, b, n)
 
 ```
-### Simpson's Rule
+### [Simpson's Rule](https://en.wikipedia.org/wiki/Simpson%27s_rule)
 ```bash
 
 result_simpsons = simpsons_rule(f2, a, b, n)
 
 ```
-### Midpoint Rule
+### [Midpoint Rule](https://en.wikipedia.org/wiki/Riemann_sum)
 ```bash
 
 result_midpoint = midpoint_rule(f3, a, b, n)
 
 ```
-### Boole's Rule
+### [Boole's Rule](https://en.wikipedia.org/wiki/Boole%27s_rule)
 ```bash
 
 result_booles = booles_rule(f1, a, b, n)
 
 ```
-### Romberg Integration
+### [Romberg Integration](https://en.wikipedia.org/wiki/Romberg%27s_method)
 ```bash
 
 result_romberg = romberg_integration(f2, a, b)
 
 ```
-### Gauss-Legendre Quadrature
+### [Gauss-Legendre Quadrature](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_quadrature)
 ```bash
 
 result_gauss_legendre = gauss_legendre_quadrature(f3, a, b, 5)
 
 ```
-### Gauss-Chebyshev Quadrature
+### [Gauss-Chebyshev Quadrature](https://en.wikipedia.org/wiki/Chebyshev%E2%80%93Gauss_quadrature)
 ```bash
 
 result_gauss_chebyshev = gauss_chebyshev_quadrature(f3, 5)
 
 ```
-### Gauss-Laguerre Quadrature
+### [Gauss-Laguerre Quadrature](https://en.wikipedia.org/wiki/Gauss%E2%80%93Laguerre_quadrature)
 ```bash
 
 result_gauss_laguerre = gauss_laguerre_quadrature(f3, 5)
 
 ```
-### Gauss-Hermite Quadrature
+### [Gauss-Hermite Quadrature](https://en.wikipedia.org/wiki/Gauss%E2%80%93Hermite_quadrature)
 ```bash
 
 result_gauss_hermite = gauss_hermite_quadrature(f3, 5)
 
 ```
-### Adaptive Simpson's Rule
+### [Adaptive Simpson's Rule](https://en.wikipedia.org/wiki/Adaptive_Simpson%27s_method)
 ```bash
 
 result_adaptive_simpsons = adaptive_simpsons_rule(f3, a, b, 1e-6)
 
 ```
-### Monte Carlo Integration
+### [Monte Carlo Integration](https://en.wikipedia.org/wiki/Monte_Carlo_integration)
 ```bash
 
 result_monte_carlo = monte_carlo_integration(f3, a, b)
 
 ```
-### Double Integrals
+### [Double Integrals](https://en.wikipedia.org/wiki/Multiple_integral)
 ```bash
 
 result_double_integral = double_integral(f4, 0, 1, 0, 1)
 
 ```
-### Simpson's rule with error
+### [Simpson's rule with error]()
 ```bash
 
 result_simpsons_error, error_estimate = simpsons_rule_with_error(f2, a, b, n)
