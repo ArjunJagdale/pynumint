@@ -35,20 +35,89 @@ a = 0
 b = 10
 n = 1000
 
-# Example usage of numerical integration methods
+```
+### [Trapezoidal Rule](https://en.wikipedia.org/wiki/Trapezoidal_rule)
+```bash
+
 result_trapezoidal = trapezoidal_rule(f1, a, b, n)
+
+```
+### Simpson's Rule
+```bash
+
 result_simpsons = simpsons_rule(f2, a, b, n)
+
+```
+### Midpoint Rule
+```bash
+
 result_midpoint = midpoint_rule(f3, a, b, n)
+
+```
+### Boole's Rule
+```bash
+
 result_booles = booles_rule(f1, a, b, n)
+
+```
+### Romberg Integration
+```bash
+
 result_romberg = romberg_integration(f2, a, b)
+
+```
+### Gauss-Legendre Quadrature
+```bash
+
 result_gauss_legendre = gauss_legendre_quadrature(f3, a, b, 5)
+
+```
+### Gauss-Chebyshev Quadrature
+```bash
+
 result_gauss_chebyshev = gauss_chebyshev_quadrature(f3, 5)
+
+```
+### Gauss-Laguerre Quadrature
+```bash
+
 result_gauss_laguerre = gauss_laguerre_quadrature(f3, 5)
+
+```
+### Gauss-Hermite Quadrature
+```bash
+
 result_gauss_hermite = gauss_hermite_quadrature(f3, 5)
+
+```
+### Adaptive Simpson's Rule
+```bash
+
 result_adaptive_simpsons = adaptive_simpsons_rule(f3, a, b, 1e-6)
+
+```
+### Monte Carlo Integration
+```bash
+
 result_monte_carlo = monte_carlo_integration(f3, a, b)
+
+```
+### Double Integrals
+```bash
+
 result_double_integral = double_integral(f4, 0, 1, 0, 1)
+
+```
+### Simpson's rule with error
+```bash
+
 result_simpsons_error, error_estimate = simpsons_rule_with_error(f2, a, b, n)
+
+```
+
+
+## Print results
+```bash
 
 print("Results:")
 print(f"Trapezoidal Rule: {result_trapezoidal}")
@@ -64,8 +133,6 @@ print(f"Adaptive Simpson's Rule: {result_adaptive_simpsons}")
 print(f"Monte Carlo Integration: {result_monte_carlo}")
 print(f"Double Integral: {result_double_integral}")
 print(f"Simpson's Rule with Error Estimation: {result_simpsons_error} with an error estimate of {error_estimate}")
-
-
 
 ```
 
