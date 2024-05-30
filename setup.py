@@ -1,11 +1,14 @@
 import setuptools
 
+# Display a message during installation
+print("Installing pynumint...")
+
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="pynumint",
-    version="0.1.1",
+    version="0.1.2",
     author="Arjun Jagdale",
     author_email="arjunjagdale14@gmail.com",
     description="pynumint is a package for Numerical Integration tasks",
@@ -48,3 +51,5 @@ setuptools.setup(
     },
 )
 
+# Print a completion message
+print("pynumint has been successfully installed!")
