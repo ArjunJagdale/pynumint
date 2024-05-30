@@ -1,8 +1,5 @@
 import setuptools
 
-# Display a message during installation
-print("Installing pynumint...")
-
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
@@ -51,5 +48,3 @@ setuptools.setup(
     },
 )
 
-# Print a completion message
-print("pynumint has been successfully installed!")
