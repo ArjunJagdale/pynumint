@@ -143,7 +143,6 @@ Gauss-Hermite Quadrature: 1.260069748687603
 Adaptive Simpson's Rule: 0.443113467730597
 Monte Carlo Integration: 0.7746479690195586
 Double Integral: 0.25507601265177027
-Simpson's Rule with Error Estimation: 1.8390715291786217 with an error estimate of 5.555553794065748e-06
 
 ```
 
