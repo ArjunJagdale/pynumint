@@ -108,9 +108,35 @@ result_monte_carlo = monte_carlo_integration(f3, a, b)
 result_double_integral = double_integral(f4, 0, 1, 0, 1)
 
 ```
-### [Simpson's rule with error]()
+### [Simpson's rule with error](https://en.wikipedia.org/wiki/Simpson%27s_rule)
 
 ![image](https://github.com/CodeSleuthX/pynumint/assets/142811259/53b03d30-3dad-4b1f-a180-262ff75ba770)
+for some 
+𝜉
+ξ in the interval 
+[
+𝑎
+,
+𝑏
+]
+[a,b]. Here, 
+𝑓
+(
+4
+)
+(
+𝜉
+)
+f 
+(4)
+ (ξ) is the fourth derivative of 
+𝑓
+f evaluated at some point 
+𝜉
+ξ in the interval.
+
+From this error term, we can see:
+
 The error is proportional to the width of the interval 
 (
 𝑏
