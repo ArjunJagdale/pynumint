@@ -109,6 +109,23 @@ result_double_integral = double_integral(f4, 0, 1, 0, 1)
 
 ```
 ### [Simpson's rule with error]()
+
+![image](https://github.com/CodeSleuthX/pynumint/assets/142811259/53b03d30-3dad-4b1f-a180-262ff75ba770)
+The error is proportional to the width of the interval 
+(
+𝑏
+−
+𝑎
+)
+(b−a) raised to the fifth power.
+The error is inversely proportional to the fourth power of the number of subintervals 
+𝑛
+n. This means that increasing the number of subintervals 
+𝑛
+n significantly decreases the error.
+The error depends on the fourth derivative of the function 
+𝑓
+f. If the fourth derivative is small, the error will be smaller.
 ```bash
 
 result_simpsons_error, error_estimate = simpsons_rule_with_error(f2, a, b, n)
