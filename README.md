@@ -1,6 +1,6 @@
 # pynumint: A Numerical Integration Library
 
-![ml drop (10)](https://github.com/ArjunJagdale/pynumint/assets/142811259/8b2b5a91-4855-4a13-804c-b227a0bcee82)
+![ml drop (10)](https://github.com/ArjunJagdale/pynumint/assets/142811259/e95ea2d7-b960-4221-8cf1-d22e23e3577d)
 
 pynumint is a Python library for numerical integration methods.
 pynumint offers a wide range of numerical integration methods, including trapezoidal rule, Simpson's rule, midpoint rule, Boole's rule, Romberg integration, Gauss-Legendre quadrature, Gauss-Chebyshev quadrature, Gauss-Laguerre quadrature, Gauss-Hermite quadrature, adaptive Simpson's rule, Monte Carlo integration, and double integrals. Users can choose the most suitable method based on the characteristics of the function and the desired level of accuracy.
